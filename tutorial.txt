@@ -138,3 +138,16 @@ public function signup(Request $request)
     {
         return response()->json($request->user());
     }
+
+
+
+-------------------------------------------------------------
+POSTMAN
+
+
+Para uso correto, você deve configurar os dois cabeçalhos a seguir
+
+Content-Type: application/json
+X-Requested-With: XMLHttpRequest
+
+
